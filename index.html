@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lebron James</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 5rem;
+        }
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        .custom-table {
+                width: 100%; 
+                margin: auto; 
+        }
+    </style>
+</head>
+<style>
+    .navbar {
+        transition: top 0.6s;
+    }
+    .navbar.hide {
+        top: -50px;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Lebron James</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">biography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Prizes/Accolades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementsByClassName("navbar")[0].style.top = "0";
+            } else {
+                document.getElementsByClassName("navbar")[0].style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+    <main role="main" class="container">
+        <div id="section1" class="starter-template">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="files\lebron-james-sunshine.png" class="img-fluid" alt="Responsive image" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-6">
+                    <h1>My pookie bear's biography!</h1>
+                    <p class="lead">LeBron Raymone James Sr. (Akron, Ohio; 30 de diciembre de 1984) es un jugador de baloncesto estadounidense
+                         que pertenece a la plantilla de Los Angeles Lakers de la NBA. Con 2,06 metros de estatura, su posición es la de alero,
+                         pero su talento, versatilidad y poderío físico le permiten jugar tanto de base como de ala-pívot.
+                         James es el máximo anotador de la historia de la NBA​ y es considerado como uno de los mejores jugadores de 
+                         baloncesto del mundo y de la historia.</p>
+                </div>
+            </div>
+        </div>
+            
+        <div class="container" id="section2">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="text-center">Accolades and Prizes</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-striped custom-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 50%">Year</th>
+                                        <th scope="col" style="width: 50%">Accolade/Prize</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">2004</th>
+                                        <td>First All-NBA rookie team</td>
+                                    </tr> 
+                                    <tr>
+                                        <th scope="row">2004</th>
+                                        <td>ROTY</td>
+                                    </tr>      
+                                    <tr>
+                                        <th scope="row">2024</th>
+                                        <td>NBA In-Season Tournament MVP</td>
+                                    </tr>                          
+                                    <!-- Add more accolades/prizes as needed -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="files\lebron-james-goggles.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="files\lebronnn.0.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table table-striped custom-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 50%">Year</th>
+                                        <th scope="col" style="width: 50%">Accolade/Prize</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">2013, 2012, 2010, 2009</th>
+                                        <td>4x MVP</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2004, 2008, 2012</th>
+                                        <td>3x Olimpic medalist</td>
+                                    </tr>  
+                                    <!-- Add more accolades/prizes as needed -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table class="table table-striped custom-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" style="width: 50%">Year</th>
+                                        <th scope="col" style="width: 50%">Accolade/Prize</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">2012, 2013, 2016, 2020.</th>
+                                        <td>4x NBA champion</td>
+                                    </tr> 
+                                    <tr>
+                                        <th scope="row">2023.</th>
+                                        <td>Top NBA scorer of all time</td>
+                                    </tr> 
+                                    <!-- Add more accolades/prizes as needed -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="files\DelLLC4VQAABOP2.jpg" class="img-fluid" alt="Responsive image" style="transform: scaleX(-1);">
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <div id="section3" class="starter-template">
+            <h1 class="text-center">Highlights</h1>
+            <p class="lead text-center">Check out Lebron's top 3 moments!</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!-- Replace 'video-source-1' with the source of your video -->
+                        <video src="files\Untitled video - Made with Clipchamp.mp4" class="embed-responsive-item" controls></video>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!-- Replace 'video-source-2' with the source of your video -->
+                        <video src="files\lebron2 - Made with Clipchamp.mp4" class="embed-responsive-item" controls></video>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!-- Replace 'video-source-3' with the source of your video -->
+                        <video src="files\lebron3 - Made with Clipchamp.mp4" class="embed-responsive-item" controls></video>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
